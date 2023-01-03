@@ -1,0 +1,17 @@
+{
+	"iub_wiki_word_count" : {
+		"filename" : "iub_wiki.txt", "mappers": 4, "reducers": 2, "mapper_func": "map_wc", "reducer_func": "red_wc"
+	},
+	"Gutenberg_collection_2_inverted_index" : {
+		"filename" : "Gutenberg_collection_2", "mappers": 4, "reducers": 2, "mapper_func": "map_inv_ind", "reducer_func": "red_inv_ind"
+	},
+	"Five_years_in_Texas_word_count" : {
+		"filename" : "Five_years_in_Texas.txt", "mappers": 7, "reducers": 4, "mapper_func": "map_wc", "reducer_func": "red_wc"
+	},
+	"Gutenberg_collection_1_inverted_index" : {
+		"filename" : "Gutenberg_collection_1", "mappers": 5, "reducers": 3, "mapper_func": "map_inv_ind", "reducer_func": "red_inv_ind"
+	},
+	"Girl_in_the_Crowd_word_count" : {
+		"filename" : "Girl_in_the_Crowd.txt", "mappers": 5, "reducers": 3, "mapper_func": "map_wc", "reducer_func": "red_wc"
+	}
+}
