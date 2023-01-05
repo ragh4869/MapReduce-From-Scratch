@@ -13,6 +13,11 @@ The main goal of this project is to locally build a distributed MapReduce system
 * **User Interaction:** Inputs are taken in and run through the usage of configuration file stored in the form of json file, thus, the user does not need to input anything from their end. If any changes are required, it can be changed in the configuration file.
 * **Fault Tolerance:** The code also implements fault tolerance to survive process failures. This is done by restarting only the failed processes. A max_tries variable is defined to set the number of times it tries to rectify the failures.
 
+### How to run? :
+
+* Open a command prompt window and run the server.py
+* Open an another command prompt window and run the main.py
+
 ### Applications:
 
 #### **Word-count:** 
